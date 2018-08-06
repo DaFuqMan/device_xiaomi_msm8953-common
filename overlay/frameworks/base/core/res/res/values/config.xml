@@ -318,6 +318,7 @@
      
      <!-- Button Backlight -->
      <bool name="config_button_brightness_support">true</bool>
+     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
     in hardware. -->
