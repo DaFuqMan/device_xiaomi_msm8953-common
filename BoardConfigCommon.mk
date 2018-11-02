@@ -46,10 +46,6 @@ BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 
-#Linaro
-KERNEL_TOOLCHAIN := /home/SagarRokade/havoc/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android/bin
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-opt-linux-android-
-
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
@@ -80,7 +76,6 @@ BOARD_USES_ALSA_AUDIO := true
 USE_XML_AUDIO_POLICY_CONF := 1
 
 #HALS
-TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8996
 TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
 TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
 TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
